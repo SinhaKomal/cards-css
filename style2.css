@@ -1,0 +1,83 @@
+body{
+    background-color: #5a95e7;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    background-color: white;
+    height: 450px;
+    width: 310px;
+    position: absolute;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 10px rgba(233,144,7,0.7);
+}
+.info{
+   
+    height: 100%;
+    width:100%;
+    display: flex ;
+}
+.name{
+    font-size: 25px;
+    font-family: "Raleway",sans -serif;
+    color: #3d13d4;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.prof{
+    font-size: 15px;
+    position : absolute;
+    top:140px;
+    font-family: "work sans",sans -serif;
+    color:#555555 ;
+    margin-left: 100px
+}
+.divider{
+ background-color:#0a0b0a; 
+ height: 1.5px;
+   width: 50px ;
+   position: absolute;
+     top: 180px;;
+     left: 125px;
+}
+.bio{
+    position: absolute;
+    top:220px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "work sans",sans -serif;
+
+}
+button{
+    position: absolute;
+    bottom: 50px;
+    background-color: #5234e4;
+    color: #ead8ba;
+    border: none;
+    font-size: 20px;
+    left:90px;
+}
+.photo{
+    height: 100%;
+    width: 100%;
+    background: url(img1.png);
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 8px ;
+    transition: 1%;
+}
+.card:hover .photo{
+    transform: scale(0.5,0.35) translateY(-650px);
+ background-position: 0  -25px;
+background-size: 100% 150%;
+border-radius: 50%;
+}
+

@@ -1,0 +1,50 @@
+body{
+ background-color: white;
+ padding: 0;
+ margin: 0; 
+}
+.wrapper{
+   background-color: #007991;
+   height: 350px;
+   width: 500px;
+   position: absolute;
+   margin: auto;
+   left:0;
+   right: 0;
+   bottom: 0;
+   top: 0; 
+
+}
+.card{
+   height: 100%;
+   width: 100%;
+}
+.name{
+   position: absolute;
+   color: white;
+   font-size: 23px;
+   top:200px;
+   left: 210px;
+   letter-spacing: 4px;
+}
+.position{
+   position: absolute;
+   color: white;
+   font-size: 23px;
+   top:240px;
+   left: 185px;
+   letter-spacing: 4px;
+}
+.photo{
+   /* height: 30%;
+   width: 30%; */
+   height: 350px;
+   width: 500px;
+
+   background: url(img2.png);
+   position: absolute;
+   bottom: 0;
+   background-size: 100% 100%;
+   border-radius: 8px;
+   transition: 1%;
+}
